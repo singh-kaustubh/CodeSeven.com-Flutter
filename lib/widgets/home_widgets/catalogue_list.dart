@@ -1,3 +1,5 @@
+// ignore_for_file: deprecated_member_use
+
 import 'package:flutter/material.dart';
 import 'package:velocity_x/velocity_x.dart';
 import 'package:flutter_application_1/models/catalogue.dart';
@@ -6,6 +8,8 @@ import 'add_to_cart.dart';
 import 'catalogue_image.dart';
 
 class CatalogueList extends StatelessWidget {
+  const CatalogueList({super.key});
+
   @override
   Widget build(BuildContext context) {
     return ListView.builder(

@@ -4,8 +4,7 @@ class CatalogueModel {
   static List<Item>? items;
 
   //Get Item by ID
-  Item getById(int id) =>
-      items!.firstWhere((element) => element.id == id, orElse: null);
+  Item getById(int id) => items!.firstWhere((element) => element.id == id);
 
   //Get Item by Position
   Item getByPosition(int pos) => items![pos];

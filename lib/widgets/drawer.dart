@@ -1,7 +1,11 @@
+// ignore_for_file: prefer_const_constructors, prefer_const_declarations
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class MyDrawer extends StatelessWidget {
+  const MyDrawer({super.key});
+
   @override
   Widget build(BuildContext context) {
     final imageUrl = "https://avatars.githubusercontent.com/u/56643117?v=4";

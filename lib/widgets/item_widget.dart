@@ -1,3 +1,5 @@
+// ignore_for_file: prefer_const_constructors
+
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/models/catalogue.dart';
 
@@ -10,9 +12,7 @@ class ItemWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Card(
       child: ListTile(
-        onTap: () {
-          print("${item.name} pressed");
-        },
+        onTap: () {},
         leading: Image.network(item.image),
         title: Text(item.name),
         subtitle: Text(item.desc),
